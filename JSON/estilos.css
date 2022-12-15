@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+h1 {color: white; margin-top: 10px}
+
+h3 {color: #434346; float: left; margin-bottom: 5px}
+
+.content {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.content-2 {
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #434346;
+  height: 25px;
+  width: 100%;
+  
+}
+
+.header {
+  padding: 10px;
+  width: 85%;
+  height: 460px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+#btnAdd {
+  width: 50%;
+  height: 40px;
+  background-color: #75FF96;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 10px;
+  border: none;
+}
+
+#btnAdd:hover {
+  background-color: #09AF31
+}
+
+#btnLimpiar {
+  width: 50%;
+  height: 40px;
+  background-color: #7F7F7F;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
+
+#btnLimpiar:hover {
+  background-color: #535353;
+}
+
+#btnBorrar {
+  width: 50%;
+  height: 40px;
+  background-color: #FF7575;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 10px;
+  border: none;
+}
+
+#btnBorrar:hover {
+  background-color: #9E3434;
+}
+
+#btnEditar {
+  width: 50%;
+  height: 40px;
+  background-color: #75B3FF;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
+
+#btnEditar:hover {
+  background-color: #3F73B2;
+}
+
+.header-two {
+  padding: 10px;
+  width: 85%;
+  height: 240px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+#div {
+  font-size: 18px;
+  color: #434346;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+  float: left;
+}
+
+span {
+  color: #717170;
+  font-size: 12px;
+}

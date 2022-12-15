@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PRODUCTOS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body background="fondos3.jpeg">
+<body onload="listaCanciones()">
+  <center>
+    <h1 id="arriba">PRODUCTOS</h1>
+    <header class="header">
+      <form id="from">
+        <input type="hidden" id="id">
+      <div class="content">
+        <h3>NOMBRE</h3><br><input type="text" id="nombre">
+      </div>
+      <div class="content">
+        <h3>MARCA</h3><br><input type="text" id="album">
+      </div>
+      <div class="content">
+        <h3>COMERCIALIZADORA</h3><br><input type="text" id="artista">
+      </div>
+      <div class="content">
+        <h3>DISTRIBUIDORA</h3><br><input type="text" id="fecha">
+      </div>
+      <div class="content">
+        <h3>CANTIDAD</h3><br><input type="text" id="duracion">
+      </div>
+      </form>
+      <div class="content-2">
+        <button id="btnAdd" onclick="aggCancion()">GUARDAR</button>
+        <button id="btnLimpiar">LIMPIAR</button>
+      </div>
+    </header>
+    <div id="divRes">
+    </div>
+  </center>
+  <script src="sweetalert2.all.min.js">sweetalert2.all.min.js</script>
+  <script src="app.js">main.js</script>
+  <script src="uuid.min.js">uuid.min.js</script>
+</body>
+
+</html>

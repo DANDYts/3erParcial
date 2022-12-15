@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRIPTOMONEDA</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      <title>CRIPTOMONEDA</title>
+      
+      <link rel="stylesheet" href="estilos.css">
+      
+    <body onload="opcionesCriptomoneda()">
+      <div class="contenedor">
+        <div class="row">
+          <div class="one-half column">
+           
+          </div>
+          <div class="one-half column">
+            <center>
+            <h1><font color="yellow">COTIZA CRIPTOMONEDAS</h1></font>
+            <img src="cargando.gif" width="150" height="150">
+            
+            <form>
+              <div id="msj-error"></div>
+              <label>SELECCIONA TU MONEDA</label>
+              <select 
+              onchange="cotizarMoneda()"
+              id="moneda">
+                <option value="">-SELECCIONAR- </option>
+                <option value="USD">PESOS MEXICANOS</option>
+                <option value="MXN">DOLAR DE ESTADOS UNIDOS</option>
+                   <option value="EUR">EURO</option>
+                   <option value="GBP">LIBRA ESTERLINA</option>
+              </select>
+              <label>SELECCIONA TU CRIPTOMONEDA</label>
+              <select
+              onchange="cotizarMoneda()"
+              id="criptomoneda">
+                
+              </select>
+              <button type="button" class="boton" onclick="cotizarMoneda()">CALCULAR</button>
+              
+              
+            </form>
+            <div class="resultado" id="divResultado"></div>
+          </div>
+        </div>
+      </center>
+      </div>
+    
+      <script src="app.js"></script>
+    </body>
+    </html>
+</body>
+</html>

@@ -1,0 +1,47 @@
+[
+  {
+    "no_control":"20415082060218",
+    "nombre":"Arturo",
+    "ap":"Peralta",
+    "am":"Mendez",
+    "dirección":{
+      "calle":"los sabinos",
+      "no":41,
+      "colonia":"casas geo",
+      "municipio":"tecamac",
+      "cp":55614
+    },
+    "casado":true,
+    "hermanos":["kary", "brenda"]
+  },
+  {
+    "no_control": "20415082060218",
+    "nombre": "heydan",
+    "ap": "Hernández",
+    "am": "santillan",
+    "dirección": {
+      "calle": "los sabinos",
+      "no": 41,
+      "colonia": "casas geo",
+      "municipio": "Tecamac",
+      "cp": 55614
+    },
+    "casado": true,
+    "hermanos": ["kary", "brenda"]
+  },
+  {
+    "no_control": "20415082060218",
+    "nombre": "miguel",
+    "ap": "aguirre",
+    "am": "pompa",
+    "dirección": {
+      "calle": "San Ángel",
+      "no": 41,
+      "colonia": "La Trinidad",
+      "municipio": "Zumpango",
+      "cp": 55614
+    },
+    "casado": true,
+    "hermanos": ["Jesús", "Zandra"]
+  }
+  ]

@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  color: black;
+}
+
+h1{
+  margin: 20px;
+}
+
+input{
+  margin: 10px;
+}
+
+#btnSumar {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+}
+
+#btnRestar {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+}
+
+#btnMultiplicar {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+}
+
+#btnDividir {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+}
+
+#btnSumar:hover {
+  color: black;
+  background: red;
+}
+
+#btnRestar:hover {
+  color: black;
+  background: red;
+}
+
+#btnMultiplicar:hover {
+  color: black;
+  background: red;
+}
+
+#btnDividir:hover {
+  color: black;
+  background: red;
+}
